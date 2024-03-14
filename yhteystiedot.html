@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kukkakulma</title>
+    <link rel="stylesheet" href="tyyli.css">
+</head>
+<head>
+    <style>
+        .keskitetty-kuva {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html"><img src="kulma.png" alt="Kukkakulma ja kuva kukasta" class="keskitetty-kuva" width="450" height="500"></a>
+
+</body>
+    <ul class="topnav">
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="tuotteet.html">Tuotteet</a></li>
+            <li><a href="paketit.html">Paketit</a></li>
+            <li><a href="meista.html">Meistä</a></li>
+            <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+        </ul>
+
+</body>
+</html>
+
+<head>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+    
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+    
+    input[type=submit] {
+      background-color: #d0bee7;
+      color: rgb(0, 0, 0);
+      padding: 6px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #a086c2;
+      color: #ffffff
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+    
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+    </style>
+
+    </head>
+
+<head>
+<style>
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+</style>
+</head>
+
+    <body>
+
+        <h3>Yhteystiedot</h3>
+
+        <p>kukkakulma@gmail.com</p>
+        <p>+358 40 123 4567</p>
+        <p>Kameliakatu 5, 00250 Helsinki</p>
+
+        <h3>Aukioloajat</h3>
+        <p>ma-ti: 9-20</p>
+        <p>ke-pe: 9-18</p>
+        <p>la: 11-15</p>
+        <p>su: suljettu</p>
+
+    <h3>Yhteydenottolomake</h3>
+    <p>Jätä yhteystietosi, niin olemme sinuun yhteydessä 1-2 arkipäivän kuluessa.</p>
+    
+    <div class="container">
+      <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Etu- ja sukunimi</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Nimesi..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Sähköposti</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Sähköposti..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Paketti</label>
+        </div>
+        <div class="col-75">
+          <select id="paketti" name="paketti">
+            <option value="häät">Häät</option>
+            <option value="hautajaiset">Hautajaiset</option>
+            <option value="syntymäpäivät">Syntymäpäivät</option>
+            <option value="muu">Muu, mikä?</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Lisätietoja</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Kirjoita jotakin.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <input type="submit" value="Lähetä">
+      </div>
+      </form>
+    </div>
+    
+    </body>
+    </html>
+    
