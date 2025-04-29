@@ -1,0 +1,38 @@
+/* taustan väri */
+.navbar-custom {
+    background-color:rgb(242, 167, 228);
+}
+    /* Tekstin väri */
+    .navbar-custom .navbar-text{
+    color:#7d2929;
+    }/* linkin väri */
+    .navbar-custom .navbar-nav .nav-link {
+    color:#752929;;
+    }
+    /* aktiivisen & hover-linkin väri */ 
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link {
+    color: #7a3f3f;
+    }
+
+
+    /*Navi linkkien koko ja fontti */
+.nav-link {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+/*Ruudukon reunat */
+.col {
+    border: 2px solid black;
+    margin-top: 50px;
+}
+
+.carousel-inner {
+    margin-top: 50px;
+}
+
+.card {
+    margin-top: 50px;
+    margin-left: 30px;
+}
