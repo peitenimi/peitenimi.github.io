@@ -66,7 +66,7 @@
                     + "<center><p><img src=" + obj.kuva + "></p></center>"
                     
                     //keskitetään teksti center-tagilla keskelle
-                    + "<center><h3>" + "opintojakso" + "</h3>" + "Nimi: " + obj.opintojakso.nimi + "<br>"
+                    + "<center><h3>" + "Opintojakso" + "</h3>" + "Nimi: " + obj.opintojakso.nimi + "<br>"
                     + "Tunnus: " + obj.opintojakso.tunnus + "<br>"
                     + "Opintopisteet: " + obj.opintojakso.opintopisteet + "<br></center>";
 
@@ -77,8 +77,8 @@
                     
                     //for -silmukka, joka luo myös linkit sivulle
                     for(let i=0; i < obj.tekniikat.length; i++){
-                        tiedot += "<b>Aihe: " + obj.tekniikat[i].aihe + "</b>";
-                        tiedot += " <a href=" + obj.tekniikat[i].linkki + ">" + obj.tekniikat[i].linkki + "</a>" + "<br>";
+                        tiedot += "<center><b>Aihe: " + obj.tekniikat[i].aihe + "</b></center>";
+                        tiedot += "<center><a href=" + obj.tekniikat[i].linkki + ">" + obj.tekniikat[i].linkki + "</a></center>" + "<br>";
                     }
 
                     tiedot += "</p>";
