@@ -38,4 +38,32 @@
         font-weight: 400;
         font-style: normal;
     }
+
+    .navbar {
+        background-color: #9932CC;
+    }
+
+    body {
+        background-color: #f2daff;
+    }
+
+    .btn {
+        color: #000000;
+        background-color: #9932CC;
+    }
       
+    .card {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+  .fact-box {
+    border: 5px solid #9932CC;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+    background-color: #000000;
+    width: fit-content;
+    color: #ffffff;
+
+  }
